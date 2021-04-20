@@ -14,143 +14,155 @@
 </head>
 
 <body>
-    <header>
-        <section>
-            <a href="">Webstudio</a>
-            <nav>
-                <ul>
-                    <li>Kontakt</li>
-                    <li>Portfolio</li>
-                    <li>Agencja</li>
+    <header class="header">
+        <section class="topline toplineBG">
+            <a class="logo" href="/index.html">Webstudio</a>
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-list-item">Kontakt</li>
+                    <li class="navigation-list-item"><a class="navigation-list-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="navigation-list-item">Agencja</li>
                 </ul>
             </nav>
-            <div>
-                <a href="tel:+48111111111">+48 111 111 111</a>
+            <div class="header-phonenumber">
+                <a class="header-phonenumber-link" href="tel:+48111111111">+48 111 111 111</a>
             </div>
-            <div>
-                <a href="mailto:info@example.com">info@example.com</a>
+            <div class="header-email">
+                <a class="header-email-link" href="mailto:info@example.com">info@example.com</a>
             </div>
         </section>
     </header>
 
     <main>
-        <section>
-            <ul>
-                <li>
-                    <button type=button>Wszystkie</button>
+        <section class="portfolio">
+            <section class="filters">
+                <ul class="filters-list">
+                    <li class="filters-list-item">
+                        <button class="button-prt" type=button>Wszystkie</button>
+                    </li>
+                    <li class="filters-list-item">
+                        <button class="button-prt" type=button>Strony</button>
+                    </li>
+                    <li class="filters-list-item">
+                        <button class="button-prt" type=button>Aplikacje</button>
+                    </li>
+                    <li class="filters-list-item">
+                        <button class="button-prt" type=button>Dizajn</button>
+                    </li>
+                    <li class="filters-list-item">
+                        <button class="button-prt" type=button>Marketing</button>
+                    </li>
+                </ul>
+            </section>
+            <ul class="portfolio-list">
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Technocrack%20PRT.jpg?raw=true"
+                            alt="laptop with three pictures" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Technocrack</p>
+                            <p class="portfolio-title-category">Strona internetowa</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <button type=button>Strony</button>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Grafika%20New%20Orlean%20vs%20Golden%20Star%20PRT.jpg?raw=true"
+                            alt="Basketball players" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Grafika New Orlean vs Golden Star</p>
+                            <p class="portfolio-title-category">Dizajn</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <button type=button>Aplikacje</button>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Restauracja%20Seafood%20PRT.jpg?raw=true"
+                            alt="Seafood restaurant logo" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Restauracja Seafood</p>
+                            <p class="portfolio-title-category">Aplikacja</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <button type=button>Dizajn</button>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Projekt%20Prime%20PRT.jpg?raw=true"
+                            alt="Headphones" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Projekt Prime</p>
+                            <p class="portfolio-title-category">Marketing</p>
+                        </div>
+                    </div>
                 </li>
-                <li>
-                    <button type=button>Marketing</button>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Projekt%20Boxes%20PRT.jpg?raw=true"
+                            alt="Two boxes" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Projekt Boxes</p>
+                            <p class="portfolio-title-category">Aplikacja</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Inspiration%20has%20no%20Borders%20PRT.jpg?raw=true"
+                            alt="Dark desktop screen" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Inspiration has no Borders</p>
+                            <p class="portfolio-title-category">Strona internetowa</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Magazyn%20Limited%20Edition%20PRT.jpg?raw=true"
+                            alt="Open magazine" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Magazyn Limited Edition</p>
+                            <p class="portfolio-title-category">Dizajn</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Projekt%20LAB%20PRT.jpg?raw=true"
+                            alt="White tag" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Projekt LAB</p>
+                            <p class="portfolio-title-category">Marketng</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-list-item">
+                    <div class="portfolio-list-item-project">
+                        <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/master/images/Growing%20Business%20PRT.jpg?raw=true"
+                            alt="Typing on a laptop" width="370px" height="294px">
+                        <div class="portfolio-list-item-project-title">
+                            <p class="portfolio-title-name">Growing Business</p>
+                            <p class="portfolio-title-category">Aplikacja</p>
+                        </div>
+                    </div>
                 </li>
             </ul>
-        </section>
-        <section>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Technocrack</p>
-                        <p>Strona internetowa</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Grafika New Orlean vs Golden Star</p>
-                        <p>Dizajn</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Restauracja Seafood</p>
-                        <p>Aplikacja</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Projekt Prime</p>
-                        <p>Marketing</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Projekt Boxes</p>
-                        <p>Aplikacja</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Inspiration has no Borders</p>
-                        <p>Strona internetowa</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Magazyn Limited Edition</p>
-                        <p>Dizajn</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Projekt LAB</p>
-                        <p>Marketng</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://github.com/PawelS1988/goit-markup-hw-02/blob/main/images/#.png?raw=true" alt="generic description" width="370px" height="294px">
-                    <div>
-                        <p>Growing Business</p>
-                        <p>Aplikacja</p>
-                    </div>
-                </div>
-            </li>
         </section>
 
     </main>
 
-    <footer>
-        <a href="">WebStudio</p>
-            <address>
-                <ul>
-                    <li>
-                        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+    <footer class="footer footerBG">
+        <a class="logo" href="/index.html">WebStudio</p>
+            <address class="address">
+                <ul class="address-list">
+                    <li class="address-list-item">
+                        <p class="address-list-item-par">m. Warszawa, Aleje Jerozolimskie 21</p>
                     </li>
-                    <li>
-                        <a href="mailto:info@example.com">info@example.com</a>
+                    <li class="address-list-item">
+                        <a class="address-mail" href="mailto:info@example.com">info@example.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+48111111111">+48 111 111 111</a>
+                    <li class="address-list-item">
+                        <a class="address-pnonenumber" href="tel:+48111111111">+48 111 111 111</a>
                     </li>
                 </ul>
             </address>
